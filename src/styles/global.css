@@ -1,0 +1,284 @@
+.register {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .register input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .register button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register .error {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  .login {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .login input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login .error {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  .dashboard {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dashboard button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dashboard button:hover {
+    background-color: #0056b3;
+  }
+  
+  .event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .event-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .event-card:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .event-card p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .create-event {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .create-event h2 {
+    margin-bottom: 20px;
+  }
+  
+  .create-event form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .create-event input,
+  .create-event textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .create-event textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .create-event button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-event button:hover {
+    background-color: #0056b3;
+  }
+  
+  .create-event .error {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  .event-details {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .event-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .event-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .tabs {
+    margin: 20px 0;
+  }
+  
+  .tabs button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tabs button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+  }
+  
+  .tab-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tab-content li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .tab-content li:last-child {
+    border-bottom: none;
+  }
+  
+  .tasks {
+    margin-top: 20px;
+  }
+  
+  .task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .task-item h4 {
+    margin: 0;
+  }
+  
+  .task-item button {
+    margin-right: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-item button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .task-item button:last-child:hover {
+    background-color: #a71d2a;
+  }
+  
+  .error {
+    color: red;
+  }
+  
