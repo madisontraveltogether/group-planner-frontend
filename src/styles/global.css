@@ -331,4 +331,53 @@
   color: red;
 }
 
+.guests {
+  margin-top: 20px;
+}
+
+.guest-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.guest-list {
+  list-style: none;
+  padding: 0;
+}
+
+.guest-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.guest-item button {
+  margin-right: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.guest-item button:hover {
+  background-color: #0056b3;
+}
+
+.guest-item button:last-child {
+  background-color: #dc3545;
+}
+
+.guest-item button:last-child:hover {
+  background-color: #a71d2a;
+}
+
+.error {
+  color: red;
+}
+
   
